@@ -1,8 +1,4 @@
-import { useDisclosure } from '@chakra-ui/react'
-import { Button } from '@chakra-ui/react'
-import { Flex } from '@chakra-ui/react'
-import { Box } from '@chakra-ui/react'
-import { Image } from '@chakra-ui/react'
+import { useDisclosure, Button, Flex, Box, Image } from '@chakra-ui/react'
 import HistoryModal from "./HistoryModal";
 
 const Navbar = () => {
