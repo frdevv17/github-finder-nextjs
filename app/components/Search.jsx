@@ -60,7 +60,7 @@ const Search = ({ setUserData, setLoading }) => {
         <form onSubmit={handleSubmit} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <Input
                 variant={"outline"}
-                placeholder={"Type a username (i.e. burakorkmez)"}
+                placeholder={"Type a username (i.e. frdevv17)"}
                 focusBorderColor='green.500'
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
